@@ -10,7 +10,10 @@
 
         static void WriteDefaultProducts()
         {
+            // Denna if sats är viktig!!!
+            // Vad händer om jag ta bort den tror ni?
             if (File.Exists("../../../MyProducts.txt")) return;
+         
             string text = "11 Jordgubbar 39,90 Styckpris\n" +
                           "22 Nutella 19,90 Styckpris\n" +
                           "33 Citron 4,90 Styckpris\n" +
